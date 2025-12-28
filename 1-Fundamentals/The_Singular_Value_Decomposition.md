@@ -1,3 +1,4 @@
+(全体:2025/12/21)
 ## Reduced SVD
 Aはfull rank nでVはunitayであるため、$V^{-1}=V^*$、$\hat{U}$は$m\times n$の直交行列、$\hat{\Sigma}$は正方行列とする。
 $$A=\hat{U}\hat{\Sigma}V^*$$
@@ -17,9 +18,9 @@ $U$と$V$はユニタリー行列となるから、
 A=U\Sigma V^* \label{eq:FullSVD}
 \end{equation}
 より、
-\[
+$$
 A^{-1}=V\Sigma^{-1}U*
-\]
+$$
 と逆行列演算が高速で安定する利点がある。
 
 Having described the full SVD, we can now discard the simplifying assumption that A has full rank. if A is rank-deficient, the factorization \eqref{eq:FullSVD} is still appropriate.
