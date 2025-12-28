@@ -17,7 +17,7 @@ Lloyd N. Trefethen & David Bau, III
 - 理解した内容は消さずに、追記・更新する
 
 ## 前提
-Gilbert Strang 著の和訳版『STRANG:線形代数イントロダクション』を読んでいる。第1-6,8,9章は繰り返し読み、他の章はサッと目を通した程度です。
+Gilbert Strang 著の和訳版『STRANG:線形代数イントロダクション』を主要教材として学習していた。第1-6,8,9章は納得するまで繰り返し読み、他の章はサッと目を通した程度です。
 <p align="center">
   <img width="200" src="https://github.com/user-attachments/assets/9fbc29a1-2e9b-48c3-ba34-d05e47589e0c" />
 </p>
