@@ -1,3 +1,4 @@
+(全体:2025/12/12)
 ## Vector Norms
 normはそれぞれのベクトルに対して実数値の長さを割り当てる関数$\|\cdot\|:\mathbb{C}^m\to \mathbb{R}$である。そして、次の3つの条件を満たす必要がある。
 - $\|x\|\geq 0 \text{ for all } x\in \mathbb{C}^m,\ \text{and } \|x\|=0 \iff x=0,$
@@ -28,6 +29,9 @@ $$
 $$
 
 行列ノルムは$A$によって誤差の最大何倍ベクトルを増幅させるかを表している。行列ノルムはを基準とし、どのp-normを使うかで行列ノルムの値が変わる。
+
+---
+
 ### 1-norm 
 1ノルムは以下のように定義される。
 $$\|x\|_1=\sum_{j=1}^{n}|x_j|$$
@@ -57,6 +61,9 @@ $$
 \end{equation}
 $$
 つまり行列$A$の1-normは**各列ベクトルの要素和における最大値**となる。
+
+---
+
 ### $\infty$-norm
 $\infty$ノルムは以下のように定義される。
 $$\|x\|_{\infty}=\max_{1\leq j\leq m}|x_j|$$
@@ -75,6 +82,8 @@ $
 $
 つまり行列$A$の1-normは**各行ベクトルの要素和における最大値**となる。
 
+---
+
 ### Cauchy--Schwarz and Hölder Inequalities
 Computing matrix p-norm with $p\neq1,\infty$ is more difficult, and to approach this problem, 
 we note that inner products can be bounded using p-norms. Let $p$ and $q$ satisfy $1/p + 1/q = 1$, with $1\leq p,q \leq \infty$. 
@@ -84,28 +93,34 @@ $$
 $$
 The Cauchy--Schwarz inequality is the special case of Hölder inequality with $p=q=2$:
 $$|x^* y| \leq \|x\|_2 \|y\|_2.$$
+
+---
+
 ### The 2-Norm of a Row Vector
 Consider a matrix A containing a single row. The matrix can be written as $A=x^*$, where $a$ is a column vector. The Cauchy--Schwarz inequality allows us to obtain the induced matrix 2-norm.
 For any $x$,  we have $\|Ax\|_2=|a^* x|\leq \|a\|_2\|x\|_2$.
 $$
 \|A\|_2 = \sup_{x\neq0}\frac{\|Ax\|_2}{\|x\|_2} = \|a\|_2.
 $$
+
+---
+
 ### The 2-Norm of an Outer Product
 if $A=uv^*$, we can bounded $\|Ax\|_2$ as follows:
 $$
 \|Ax\|_2 = \|uv^*x\|_2 = \|u\|_2|v^*x|\leq \|u\|_2\|v\|_2\|x\|_2
 $$
 Therefore, $\|A\|_2 = \|u\|_2\|v\|_2$. Again, this inequality is equality: consider the case $x=v$.
-\subsubsection*{General Matrix Norms}
+
+---
+
+### General Matrix Norms
 行列もノルムの3条件に従う。
-$$
-\begin{equation}
-\begin{aligned}
-    &\|A\|\leq0,\text{and} \|A\|=0 \text{only if} A=0,\\
-    &\|A+B\|\leq \|A\|+\|B\|,\\
-    &\|\alpha A\|=|\alpha|\|A\|.
-\end{aligned}$$
-The most important matrix norm which is **not induced** by a vector norm is the **Frobenius norm** or **Frobenius norm**, defined by
+ - $\|A\|\leq0,\text{and} \|A\|=0 \text{only if} A=0,$
+ - $\|A+B\|\leq \|A\|+\|B\|,$
+ - $\|\alpha A\|=|\alpha|\|A\|.$
+
+The most important matrix norm which is **not induced** by a vector norm is the **FHilbert--Schemidt** or **Frobenius norm**, defined by
 $$
     \|A\|_F = \left(\sum_{i=1}^{m}\sum_{j=1}^{n}|a_{ij}|^2\right)^{1/2}.
 $$
