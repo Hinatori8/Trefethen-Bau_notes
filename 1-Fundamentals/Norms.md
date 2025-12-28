@@ -6,13 +6,13 @@ normはそれぞれのベクトルに対して実数値の長さを割り当て�
 ## Matrix Norms Induced by Vector Norms
 ### p-norm 
 The most important class of vector norms are the **p-norms** are defined below.The closed unit ball $\{x \in \mathbb{C}^m : \|x\|_p = 1\}$ corresponding to each norm is illustrated to the right for the case $m=2$.
-
+<p align="center">
     <img width="696" src="https://github.com/user-attachments/assets/d38ffc8c-1397-41bd-be64-cf5bb3018f19" />
-
+</p>
 $A\in\mathbb{C}^{m \times n}$,respectively, the induced matrix norm $\|A\|_{mn}$ is the smallest number C for which the following inequality holds for all $x\in \mathbb{C}^n$:
-\[
+$$
 \|Ax\|_m \leq C \|x\|_n
-\]
+$$
 In other words, $\|A\|_{mn}$is the supremum(上限) of the ratio $\|Ax\|_m/\|x\|_n$ over vectors $x\neq 0$ in $\mathbb{C}^n$-- the maximum factor by which A can "stretch" a vector x.
 上限とは最大値のようなものである。たとえば、$x<5$は5は含まれないが、5より小さい値であればどんなに5に近くても良い。つまり、5は上限である。比率であり、上限であるから
 $A$が作用したことによって、$x$がどれだけ伸びうるかを表しており、誤差に対して重要な役割を果たす。
