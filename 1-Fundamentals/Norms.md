@@ -6,9 +6,9 @@ normはそれぞれのベクトルに対して実数値の長さを割り当て�
 ## Matrix Norms Induced by Vector Norms
 ### p-norm 
 The most important class of vector norms are the **p-norms** are defined below.The closed unit ball $\{x \in \mathbb{C}^m : \|x\|_p = 1\}$ corresponding to each norm is illustrated to the right for the case $m=2$.
-\begin{figure}[H]\centering
-    \includegraphics[width=0.5\hsize]{p-norm.png}
-\end{figure}
+
+    <img width="696" src="https://github.com/user-attachments/assets/d38ffc8c-1397-41bd-be64-cf5bb3018f19" />
+
 $A\in\mathbb{C}^{m \times n}$,respectively, the induced matrix norm $\|A\|_{mn}$ is the smallest number C for which the following inequality holds for all $x\in \mathbb{C}^n$:
 \[
 \|Ax\|_m \leq C \|x\|_n
