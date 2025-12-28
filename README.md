@@ -3,7 +3,7 @@ Lloyd N. Trefethen & David Bau, III
 『NUMERICAL LINEAR ALGEBRA』
 
 <p align="center">
-![1611977150](https://github.com/user-attachments/assets/ae9bf857-3cda-4cf6-9817-c0bd7da4823d)
+<img width="200" src="https://github.com/user-attachments/assets/ae9bf857-3cda-4cf6-9817-c0bd7da4823d" />
 </p>
 
   
@@ -18,6 +18,10 @@ Lloyd N. Trefethen & David Bau, III
 
 ## 前提
 Gilbert Strang 著の和訳版『STRANG:線形代数イントロダクション』を読んでいる。第1-6,8,9章は繰り返し読み、他の章はサッと目を通した程度です。
+<p align="center">
+  <img width="200" src="https://github.com/user-attachments/assets/9fbc29a1-2e9b-48c3-ba34-d05e47589e0c" />
+</p>
+
 ※上記の本の章立ては以下の通り
 1. ベクトル入門
 2. 線型方程式の求解
