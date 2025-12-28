@@ -15,14 +15,16 @@ If $\hat{U}$ is replaced by $U$, then $\hat{\Sigma}$ will have to change too. th
    <img width="656" src="https://github.com/user-attachments/assets/d0904e35-3a6b-4a58-afb6-5dc8d8a2f338" />
 </p>
 $U$と$V$はユニタリー行列となるから、
+
+$$
 \begin{equation}
-A=U\Sigma V^* \label{eq:FullSVD}
-\end{equation}
+A=U\Sigma V^* 
+\end{equation}$$
 より、
 $$
-A^{-1}=V\Sigma^{-1}U*
+A^{-1}=V\Sigma^{-1}U^*
 $$
 と逆行列演算が高速で安定する利点がある。
 
-Having described the full SVD, we can now discard the simplifying assumption that A has full rank. if A is rank-deficient, the factorization \eqref{eq:FullSVD} is still appropriate.
-行列$A$が横長でも式\eqref{eq:FullSVD}は成り立つ
+Having described the full SVD, we can now discard the simplifying assumption that A has full rank. if A is rank-deficient, the factorization 式(1) is still appropriate.
+行列$A$が横長でも式(1)は成り立つ
