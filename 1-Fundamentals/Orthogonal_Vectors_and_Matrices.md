@@ -1,3 +1,4 @@
+(全体:2015/12/07)
 ## Adjoint
 hermitian conjugate もしくは adjoint はエルミート転置もしくは共役転置を意味する。
 
