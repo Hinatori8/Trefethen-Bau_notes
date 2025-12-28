@@ -2,6 +2,11 @@
 Lloyd N. Trefethen & David Bau, III  
 『NUMERICAL LINEAR ALGEBRA』
 
+<p align="center">
+![1611977150](https://github.com/user-attachments/assets/ae9bf857-3cda-4cf6-9817-c0bd7da4823d)
+</p>
+
+  
 ## 目的
 - 書籍内容の整理と理解メモ
 - 読書過程そのものの記録（取り組み日記）
